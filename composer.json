@@ -1,0 +1,27 @@
+{
+	"name" : "CSTruter/Facebook",
+	"description" : "Classes for integrating with Facebook",
+	"version" : "0.1.0",
+	"repositories": [
+		{
+			"type" : "vcs",
+			"url" : "https://github.com/cstruter/cstruter-service"
+		},
+		{
+			"type" : "vcs",
+			"url" : "https://github.com/cstruter/cstruter-misc"
+		}		
+	],	
+	"autoload": {
+		"classmap" : [
+			"FacebookRequest.php",
+			"FacebookApi.php",
+			"Service/FacebookServiceBase.php",
+			"Exceptions/OAuthException.php"
+		]
+	},
+	"require" : {
+		"CSTruter/Service" : "0.1.0",
+		"CSTruter/Misc" : "0.0.1" 
+	}
+}
